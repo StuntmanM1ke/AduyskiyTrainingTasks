@@ -1,14 +1,9 @@
 package trafficBlocks_10_0;
 
-
-import array_iterator_7_3.ArrayIterator;
-
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
-import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class Solution {
