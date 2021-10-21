@@ -16,7 +16,7 @@ public class Solution {
      * @throws InterruptedException
      */
     public static void main(String[] args) throws IOException, ParserConfigurationException, InterruptedException {
-        List<String> urlList = getURLListFromFile("C:/javatests/urls.txt");
+        List<String> urlList = getURLListFromFile("urls.txt");
         CountDownLatch doneSignal = new CountDownLatch(urlList.size());
         for (String url : urlList) {
             DownloadRunnable downloadRunnable =  new DownloadRunnable(doneSignal, url);

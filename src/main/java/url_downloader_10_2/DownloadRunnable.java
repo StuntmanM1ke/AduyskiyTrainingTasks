@@ -54,7 +54,7 @@ public class DownloadRunnable extends Thread {
 
     /**
      * Метод создающий новый XML-документ
-     * @return
+     * @return возвращает путь к свежесозданому файлу
      */
     private static String createNewDoc() {
         String pathName = "C:/javatests/test" + UUID.randomUUID() + ".xml";
